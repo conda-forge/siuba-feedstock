@@ -1,5 +1,5 @@
 {% set name = "siuba" %}
-{% set version = "0.0.24" %}
+{% set version = "0.0.25" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/machow/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 97b19a6203d8a2dccd33b12d32d9f4a28cfa2c1b3cdca468ba9dd57470bc0385
+  sha256: 8cff35428cc1b01323d6ef0d801fc70a7b2bba490f7269875018fe41d69f1663
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
     - pandas >=0.24.0
     - python >=3.6
     - pyyaml >=3.0.0
-    - sqlalchemy >=1.1.18
+    - sqlalchemy >=1.2.19
 
 test:
   imports:

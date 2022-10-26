@@ -1,5 +1,5 @@
 {% set name = "siuba" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/machow/{{ name }}/archive/v{{ version }}.tar.gz
-  sha256: 0df27be0fff11a712c07d662ab39fc23b2dd133cd203d7b28076afc8d135a6f0
+  sha256: d51f4623ed3d1e204f843ebf7dfe3fcf2829ed943a750ec7efc0a41f67975588
 
 build:
   number: 0
